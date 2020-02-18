@@ -22,7 +22,7 @@ Next we need the Apache Thrift libraries for Go, which you can fetch using `go g
 
 ```
 cd $GOPATH
-go get git.apache.org/thrift.git/lib/go/thrift
+go get github.com/apache/thrift/lib/go/thrift
 ```
 
 Note, this command downloads a lot of data, so it can take awhile. You should see a directory in
@@ -31,7 +31,7 @@ src named git.apache.org.
 Finally you will need the latest version of Bender, which you can get by running:
 
 ```
-go get github.com/pinterest/bender
+go get github.com/928799934/bender
 ```
 
 ## Writing the Thrift Server and Client
@@ -108,7 +108,7 @@ package main
 
 import (
 	"$PKG/hellothrift/hello"
-	"git.apache.org/thrift.git/lib/go/thrift"
+	"github.com/apache/thrift/lib/go/thrift"
 	"fmt"
 	"time"
 )
@@ -168,7 +168,7 @@ package main
 import (
 	"fmt"
 	"$PKG/hellothrift/hello"
-	"git.apache.org/thrift.git/lib/go/thrift"
+	"github.com/apache/thrift/lib/go/thrift"
 )
 
 func RunClient(transportFactory thrift.TTransportFactory, protocolFactory thrift.TProtocolFactory, addr string) error {
@@ -349,12 +349,12 @@ Then create a file named `main.go` in that directory and add these lines to it:
 package main
 
 import (
-	"github.com/pinterest/bender"
-	bthrift "github.com/pinterest/bender/thrift"
-	"git.apache.org/thrift.git/lib/go/thrift"
+	"github.com/928799934/bender"
+	bthrift "github.com/928799934/bender/thrift"
+	"github.com/apache/thrift/lib/go/thrift"
 	"log"
 	"os"
-	"github.com/pinterest/bender/hist"
+	"github.com/928799934/bender/hist"
 	"fmt"
 	"time"
         "strconv"

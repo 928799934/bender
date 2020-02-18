@@ -21,3 +21,9 @@ _testmain.go
 
 *.exe
 *.test
+
+.idea
+.DS_Store
+conf/*.log
+conf/*.pid
+rtc.center.global

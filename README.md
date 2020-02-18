@@ -23,15 +23,15 @@ library.
 
 The easiest way to get started with Bender is to use one of the tutorials:
 
-* [DHCPv6](https://github.com/pinterest/bender/blob/master/dhcpv6/TUTORIAL.md)
-* [DNS](https://github.com/pinterest/bender/blob/master/dns/TUTORIAL.md)
-* [HTTP](https://github.com/pinterest/bender/blob/master/http/TUTORIAL.md)
-* [TFTP](https://github.com/pinterest/bender/blob/master/tftp/TUTORIAL.md)
-* [Thrift](https://github.com/pinterest/bender/blob/master/thrift/TUTORIAL.md)
+* [DHCPv6](https://github.com/928799934/bender/blob/master/dhcpv6/TUTORIAL.md)
+* [DNS](https://github.com/928799934/bender/blob/master/dns/TUTORIAL.md)
+* [HTTP](https://github.com/928799934/bender/blob/master/http/TUTORIAL.md)
+* [TFTP](https://github.com/928799934/bender/blob/master/tftp/TUTORIAL.md)
+* [Thrift](https://github.com/928799934/bender/blob/master/thrift/TUTORIAL.md)
 
 ## Documentation
 
-The package documentation is available on [godoc.org](http://godoc.org/github.com/pinterest/bender).
+The package documentation is available on [godoc.org](http://godoc.org/github.com/928799934/bender).
 The function and data structure documentation is also available there.
 
 ## Performance

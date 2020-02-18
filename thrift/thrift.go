@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"git.apache.org/thrift.git/lib/go/thrift"
-	"github.com/pinterest/bender"
+	"github.com/928799934/bender"
+	"github.com/apache/thrift/lib/go/thrift"
 )
 
 // A ClientExecutor executes a Thrift request.

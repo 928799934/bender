@@ -23,7 +23,7 @@ go get -u github.com/insomniacslk/dhcp
 Finally you will need the latest version of Bender, which you can get by running:
 
 ```sh
-go get -u github.com/pinterest/bender
+go get -u github.com/928799934/bender
 ```
 
 ## Load Testing
@@ -176,9 +176,9 @@ import (
 	"github.com/insomniacslk/dhcp/dhcpv4"
 	"github.com/insomniacslk/dhcp/dhcpv4/async"
 	"github.com/insomniacslk/dhcp/iana"
-	"github.com/pinterest/bender"
-	bdhcpv4 "github.com/pinterest/bender/dhcpv4"
-	"github.com/pinterest/bender/hist"
+	"github.com/928799934/bender"
+	bdhcpv4 "github.com/928799934/bender/dhcpv4"
+	"github.com/928799934/bender/hist"
 )
 
 // HardwareAddr should return a random hardware address (we'll keep it simple)

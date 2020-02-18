@@ -19,7 +19,7 @@ package http
 import (
 	"net/http"
 
-	"github.com/pinterest/bender"
+	"github.com/928799934/bender"
 )
 
 // ResponseValidator validates an HTTP response.

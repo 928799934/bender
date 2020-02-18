@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
+	"github.com/928799934/bender"
 	"github.com/insomniacslk/dhcp/dhcpv4"
 	"github.com/insomniacslk/dhcp/dhcpv4/async"
-	"github.com/pinterest/bender"
 )
 
 // ResponseValidator validates a DHCPv4 response.

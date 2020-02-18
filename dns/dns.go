@@ -3,8 +3,8 @@ package dns
 import (
 	"fmt"
 
+	"github.com/928799934/bender"
 	"github.com/miekg/dns"
-	"github.com/pinterest/bender"
 )
 
 // ResponseValidator validates a DNS response.

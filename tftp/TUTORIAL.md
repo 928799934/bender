@@ -20,7 +20,7 @@ go get github.com/pin/tftp
 Finally you will need the latest version of Bender, which you can get by running:
 
 ```sh
-go get github.com/pinterest/bender
+go get github.com/928799934/bender
 ```
 
 ## A TFTP Server
@@ -180,11 +180,11 @@ import (
 	"os"
 	"time"
 
-	btftp "github.com/pinterest/bender/tftp"
+	btftp "github.com/928799934/bender/tftp"
 
 	"github.com/pin/tftp"
-	"github.com/pinterest/bender"
-	"github.com/pinterest/bender/hist"
+	"github.com/928799934/bender"
+	"github.com/928799934/bender/hist"
 )
 
 // SyntheticTFTPRequests generates n dummy requests to the tftp server

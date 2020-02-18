@@ -5,8 +5,8 @@ import (
 	"io"
 	"io/ioutil"
 
+	"github.com/928799934/bender"
 	"github.com/pin/tftp"
-	"github.com/pinterest/bender"
 )
 
 // RequestMode represents a mode of the tftp request

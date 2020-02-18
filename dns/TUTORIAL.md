@@ -20,7 +20,7 @@ go get github.com/miekg/dns
 Finally you will need the latest version of Bender, which you can get by running:
 
 ```sh
-go get github.com/pinterest/bender
+go get github.com/928799934/bender
 ```
 
 ## Writing DNS Server
@@ -280,8 +280,8 @@ import (
 	bdns "facebender/protocols/dns"
 
 	"github.com/miekg/dns"
-	"github.com/pinterest/bender"
-	"github.com/pinterest/bender/hist"
+	"github.com/928799934/bender"
+	"github.com/928799934/bender/hist"
 )
 
 var responseIP = net.ParseIP("fd6c:1a5c:2b63::d8e9")
